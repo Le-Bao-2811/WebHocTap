@@ -1,0 +1,7 @@
+﻿namespace DoAnThucTap.Web.Areas.Admin.ViewModels.CategorySub
+{
+    public class ListCategorySubItemVM :BaseVM
+    {
+        public string NameCategorySub { get; set; }
+    }
+}

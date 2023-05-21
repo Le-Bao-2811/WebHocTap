@@ -1,0 +1,23 @@
+﻿using DoAnThucTap.Data.Entites.Base;
+using DoAnThucTap.Share.Const;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DoAnThucTap.Data.Entites
+{
+    [Table(NameTable.ChapterTable)]
+    public class Chapter : BaseEntitty
+    {
+        public Chapter() { 
+            lessons=new HashSet<Lesson>();
+        }
+        public string NameChapter { get; set; }
+        public int? IdSubject { get; set; }
+        public Subject subject { get; set; }
+        public ICollection<Lesson> lessons { get; set; }
+    }
+}
