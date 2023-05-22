@@ -10,3 +10,15 @@ D:\hoaibao\DuAN\WebHocTap\DoAnThucTap\DoAnThucTap.Share\obj\Debug\net6.0\DoAnThu
 D:\hoaibao\DuAN\WebHocTap\DoAnThucTap\DoAnThucTap.Share\obj\Debug\net6.0\refint\DoAnThucTap.Share.dll
 D:\hoaibao\DuAN\WebHocTap\DoAnThucTap\DoAnThucTap.Share\obj\Debug\net6.0\DoAnThucTap.Share.pdb
 D:\hoaibao\DuAN\WebHocTap\DoAnThucTap\DoAnThucTap.Share\obj\Debug\net6.0\ref\DoAnThucTap.Share.dll
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Share\bin\Debug\net6.0\DoAnThucTap.Share.deps.json
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Share\bin\Debug\net6.0\DoAnThucTap.Share.dll
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Share\bin\Debug\net6.0\DoAnThucTap.Share.pdb
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Share\obj\Debug\net6.0\DoAnThucTap.Share.csproj.AssemblyReference.cache
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Share\obj\Debug\net6.0\DoAnThucTap.Share.GeneratedMSBuildEditorConfig.editorconfig
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Share\obj\Debug\net6.0\DoAnThucTap.Share.AssemblyInfoInputs.cache
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Share\obj\Debug\net6.0\DoAnThucTap.Share.AssemblyInfo.cs
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Share\obj\Debug\net6.0\DoAnThucTap.Share.csproj.CoreCompileInputs.cache
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Share\obj\Debug\net6.0\DoAnThucTap.Share.dll
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Share\obj\Debug\net6.0\refint\DoAnThucTap.Share.dll
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Share\obj\Debug\net6.0\DoAnThucTap.Share.pdb
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Share\obj\Debug\net6.0\ref\DoAnThucTap.Share.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\hoaibao\\DuAN\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Data\\DoAnThucTap.Data.csproj": {}
+    "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Data\\DoAnThucTap.Data.csproj": {}
   },
   "projects": {
-    "D:\\hoaibao\\DuAN\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Data\\DoAnThucTap.Data.csproj": {
+    "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Data\\DoAnThucTap.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\hoaibao\\DuAN\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Data\\DoAnThucTap.Data.csproj",
+        "projectUniqueName": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Data\\DoAnThucTap.Data.csproj",
         "projectName": "DoAnThucTap.Data",
-        "projectPath": "D:\\hoaibao\\DuAN\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Data\\DoAnThucTap.Data.csproj",
+        "projectPath": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Data\\DoAnThucTap.Data.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\hoaibao\\DuAN\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Data\\obj\\",
+        "outputPath": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\hoaibao\\DuAN\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Share\\DoAnThucTap.Share.csproj": {
-                "projectPath": "D:\\hoaibao\\DuAN\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Share\\DoAnThucTap.Share.csproj"
+              "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Share\\DoAnThucTap.Share.csproj": {
+                "projectPath": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Share\\DoAnThucTap.Share.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "D:\\hoaibao\\DuAN\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Share\\DoAnThucTap.Share.csproj": {
+    "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Share\\DoAnThucTap.Share.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\hoaibao\\DuAN\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Share\\DoAnThucTap.Share.csproj",
+        "projectUniqueName": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Share\\DoAnThucTap.Share.csproj",
         "projectName": "DoAnThucTap.Share",
-        "projectPath": "D:\\hoaibao\\DuAN\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Share\\DoAnThucTap.Share.csproj",
+        "projectPath": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Share\\DoAnThucTap.Share.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\hoaibao\\DuAN\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Share\\obj\\",
+        "outputPath": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Share\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

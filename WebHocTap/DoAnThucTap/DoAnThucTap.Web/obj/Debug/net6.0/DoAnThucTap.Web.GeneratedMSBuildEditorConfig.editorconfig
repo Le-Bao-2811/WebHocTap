@@ -8,217 +8,221 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DoAnThucTap.Web
 build_property.RootNamespace = DoAnThucTap.Web
-build_property.ProjectDir = D:\hoaibao\DuAN\WebHocTap\DoAnThucTap\DoAnThucTap.Web\
+build_property.ProjectDir = D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\hoaibao\DuAN\WebHocTap\DoAnThucTap\DoAnThucTap.Web
+build_property.MSBuildProjectDirectory = D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/CategoryNew/Index.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/CategoryNew/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlOZXdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/CategoryNew/_Create.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/CategoryNew/_Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlOZXdcX0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/CategoryNew/_Update.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/CategoryNew/_Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlOZXdcX1VwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/CategorySub/Index.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/CategorySub/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlTdWJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/CategorySub/_Create.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/CategorySub/_Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlTdWJcX0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/CategorySub/_Update.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/CategorySub/_Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlTdWJcX1VwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Chapter/Create.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Chapter/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hhcHRlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Chapter/Index.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Chapter/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hhcHRlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Chapter/Update.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Chapter/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hhcHRlclxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Lesson/Create.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Lesson/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGVzc29uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Lesson/Index.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Lesson/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGVzc29uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Lesson/Update.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Lesson/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGVzc29uXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/News/Create.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/News/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/News/Index.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/News/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/News/Update.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/News/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c1xVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Role/AddRole.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Role/AddRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxBZGRSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Role/Index.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Role/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Role/UpdateRole.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Role/UpdateRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxVcGRhdGVSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/Components/ListCategoryNewViewComponents/Default.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/Components/ListCategoryNewViewComponents/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGlzdENhdGVnb3J5TmV3Vmlld0NvbXBvbmVudHNcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/Components/ListCategorySubViewComponents/Default.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/Components/ListCategorySubViewComponents/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGlzdENhdGVnb3J5U3ViVmlld0NvbXBvbmVudHNcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/Components/ListRoleViewComponents/Default.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/Components/ListRoleViewComponents/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGlzdFJvbGVWaWV3Q29tcG9uZW50c1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/Components/MainNavBar/Default.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/Components/MainNavBar/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWFpbk5hdkJhclxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/Components/Permission/Default.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/Components/Permission/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcUGVybWlzc2lvblxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/_ChangePassword.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/_ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9DaGFuZ2VQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/_HeaderBar.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/_HeaderBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9IZWFkZXJCYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/_Layout.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/_Noti.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/_Noti.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Ob3RpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/_Pager.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/_Pager.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9QYWdlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Sub/DetailChapter.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Sub/DetailChapter.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3ViXERldGFpbENoYXB0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Sub/Index.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Sub/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3ViXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Sub/_Create.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Sub/_Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3ViXF9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Sub/_Update.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Sub/_Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3ViXF9VcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Test/Create.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Test/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVzdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Test/Detail.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Test/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVzdFxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Test/Index.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Test/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVzdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Test/_UpdateAnswer.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/Test/_UpdateAnswer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVzdFxfVXBkYXRlQW5zd2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/User/AddUser.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/User/AddUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxBZGRVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/User/Index.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/_ViewImports.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/_ViewStart.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/Account/Login.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/Home/Index.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/Home/Privacy.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/Shared/Components/ListCategorySubCLViewComponents/Default.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/Shared/Components/ListCategorySubCLViewComponents/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGlzdENhdGVnb3J5U3ViQ0xWaWV3Q29tcG9uZW50c1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/Shared/Components/ListCategorySubPaymentViewComponents/Default.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/Shared/Components/ListCategorySubPaymentViewComponents/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGlzdENhdGVnb3J5U3ViUGF5bWVudFZpZXdDb21wb25lbnRzXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/Shared/Components/ListFeaturesViewComponents/Default.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/Shared/Components/ListFeaturesViewComponents/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGlzdEZlYXR1cmVzVmlld0NvbXBvbmVudHNcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/Shared/Error.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/Shared/Components/ListSortCSubCLViewComponents/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGlzdFNvcnRDU3ViQ0xWaWV3Q29tcG9uZW50c1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/_ViewImports.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/_ViewStart.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hoaibao/DuAN/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/Shared/_Layout.cshtml]
+[D:/hoaibao/DuAN/DoANThucTap/WebHocTap/DoAnThucTap/DoAnThucTap.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-yhq60h07xq

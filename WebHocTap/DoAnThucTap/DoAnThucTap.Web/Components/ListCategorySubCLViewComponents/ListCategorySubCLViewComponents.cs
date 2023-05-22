@@ -1,4 +1,5 @@
-﻿using DoAnThucTap.Data.Reponsitory;
+﻿using DoAnThucTap.Data.Entites;
+using DoAnThucTap.Data.Reponsitory;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DoAnThucTap.Web.Components.ListCategorySubCLViewComponents
@@ -12,7 +13,13 @@ namespace DoAnThucTap.Web.Components.ListCategorySubCLViewComponents
         }
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            return View();
+            var data = _repo.GetAll<CategorySub>().Take(8).ToList();
+            foreach(var item in data)
+            {
+                var dataItem=_repo.GetAll<Subject>().Where(x=>x.IdCategorySub==item.Id).ToList();
+                item.subjects = dataItem;
+            }
+            return View(data);
         }
     }
 }

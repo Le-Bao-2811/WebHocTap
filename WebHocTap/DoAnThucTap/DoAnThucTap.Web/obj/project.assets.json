@@ -10840,11 +10840,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\hoaibao\\DuAN\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\DoAnThucTap.Web.csproj",
+      "projectUniqueName": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\DoAnThucTap.Web.csproj",
       "projectName": "DoAnThucTap.Web",
-      "projectPath": "D:\\hoaibao\\DuAN\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\DoAnThucTap.Web.csproj",
+      "projectPath": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\DoAnThucTap.Web.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\hoaibao\\DuAN\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\obj\\",
+      "outputPath": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10861,11 +10861,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\hoaibao\\DuAN\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Data\\DoAnThucTap.Data.csproj": {
-              "projectPath": "D:\\hoaibao\\DuAN\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Data\\DoAnThucTap.Data.csproj"
+            "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Data\\DoAnThucTap.Data.csproj": {
+              "projectPath": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Data\\DoAnThucTap.Data.csproj"
             },
-            "D:\\hoaibao\\DuAN\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Share\\DoAnThucTap.Share.csproj": {
-              "projectPath": "D:\\hoaibao\\DuAN\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Share\\DoAnThucTap.Share.csproj"
+            "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Share\\DoAnThucTap.Share.csproj": {
+              "projectPath": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Share\\DoAnThucTap.Share.csproj"
             }
           }
         }

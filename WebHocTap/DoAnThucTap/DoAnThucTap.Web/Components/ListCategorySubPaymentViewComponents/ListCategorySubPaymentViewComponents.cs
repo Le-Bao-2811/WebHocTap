@@ -1,4 +1,5 @@
-﻿using DoAnThucTap.Data.Reponsitory;
+﻿using DoAnThucTap.Data.Entites;
+using DoAnThucTap.Data.Reponsitory;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DoAnThucTap.Web.Components.ListCategorySubPaymentViewComponents
@@ -12,7 +13,8 @@ namespace DoAnThucTap.Web.Components.ListCategorySubPaymentViewComponents
         }
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            return View();
+            var data = _repo.GetAll<CategorySub>().Where(x=>x.isPayment==true).Take(8).ToList();
+            return View(data);
         }
     }
 }

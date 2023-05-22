@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9+McbhZ68sOVyk4r4t51XstcDT56e7DeXEx+ZnVAP0gtA6tJaOo7lKyaA7AKseJULX1HsujYzc03OfoK8RQeqw==",
+  "dgSpecHash": "8yS4t6DuN9fX3ETacREWNGIBxN6mfeu6dFLMpFsOVFhHDA2AFTlUmvl5YjUq5Gl/OcLVGi8Q3yv54gZrqYx8sw==",
   "success": true,
-  "projectFilePath": "D:\\hoaibao\\DuAN\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Data\\DoAnThucTap.Data.csproj",
+  "projectFilePath": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Data\\DoAnThucTap.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
