@@ -51,8 +51,31 @@ namespace DoAnThucTap.Data.DataSender
                     });
                 }
             }
-
             builder.HasData(rolePermission);
+            // tạo vai trò khách hàng
+            Type[] typeclient = new Type[]
+            {
+                 typeof(AuthConst.PurchasedCourse),
+            };
+            // Cấp quyền cho vai trò
+            var roleclient = new List<RolePermission>();
+            foreach (var type in typeclient)
+            {
+                var allPermission = GetConstants(type);
+                foreach (var permission in allPermission)
+                {
+                    i++;
+                    roleclient.Add(new RolePermission
+                    {
+                        Id = i,
+                        MStPermissionId = Convert.ToInt32(permission.GetRawConstantValue()),
+                        UpdateAt = now,
+                        CreateAt = now,
+                        RoleId = 2,      // Vai trò được tạo ở AppRoleSeeder
+                    });
+                }
+            }
+            builder.HasData(roleclient);
         }
         private static List<FieldInfo> GetConstants(Type type)
         {

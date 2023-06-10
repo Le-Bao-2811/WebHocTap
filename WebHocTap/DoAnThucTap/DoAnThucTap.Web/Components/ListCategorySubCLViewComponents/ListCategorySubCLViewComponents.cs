@@ -13,7 +13,7 @@ namespace DoAnThucTap.Web.Components.ListCategorySubCLViewComponents
         }
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            var data = _repo.GetAll<CategorySub>().Take(8).ToList();
+            var data = _repo.GetAll<CategorySub>(x=>x.Price==null).Take(8).OrderByDescending(x=>x.CountView).ToList();
             foreach(var item in data)
             {
                 var dataItem=_repo.GetAll<Subject>().Where(x=>x.IdCategorySub==item.Id).ToList();

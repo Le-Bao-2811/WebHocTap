@@ -42,6 +42,7 @@ namespace DoAnThucTap.Web.Areas.Admin.Controllers
                 model.pathImg = image;
             }
             var data =_mapper.Map<CategorySub>(model);
+            data.CountView = 0;
             await _repo.AddAsync(data);
             SetSuccessMesg("Thêm danh mục bài học thành công");
             return Ok(true);

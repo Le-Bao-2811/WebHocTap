@@ -108,6 +108,9 @@ namespace DoAnThucTap.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("CountView")
+                        .HasColumnType("int");
+
                     b.Property<DateTime?>("CreateAt")
                         .HasColumnType("datetime2");
 
@@ -116,6 +119,10 @@ namespace DoAnThucTap.Data.Migrations
 
                     b.Property<DateTime?>("DeleteAt")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("Descripstion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("DetleteBy")
                         .HasColumnType("datetime2");
@@ -127,11 +134,11 @@ namespace DoAnThucTap.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("Price")
+                        .HasColumnType("int");
+
                     b.Property<DateTime?>("UpdateAt")
                         .HasColumnType("datetime2");
-
-                    b.Property<bool>("isPayment")
-                        .HasColumnType("bit");
 
                     b.Property<string>("pathImg")
                         .IsRequired()
@@ -805,6 +812,33 @@ namespace DoAnThucTap.Data.Migrations
                             Desc = "Đổi mật khẩu tài khoản",
                             GroupName = "Quản lý tài khoản",
                             Table = "User"
+                        },
+                        new
+                        {
+                            Id = 9303,
+                            Code = "CREATE",
+                            CreateAt = new DateTime(2021, 11, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Desc = "Mua khóa học",
+                            GroupName = "Quản lý mua khóa học",
+                            Table = "PurchasedCourse"
+                        },
+                        new
+                        {
+                            Id = 9302,
+                            Code = "VIEW_DETAIL",
+                            CreateAt = new DateTime(2021, 11, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Desc = "Xem chi tiết khóa học",
+                            GroupName = "Quản lý mua khóa học",
+                            Table = "PurchasedCourse"
+                        },
+                        new
+                        {
+                            Id = 9301,
+                            Code = "VIEW_LIST",
+                            CreateAt = new DateTime(2021, 11, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Desc = "Xem danh sách khóa học",
+                            GroupName = "Quản lý mua khóa học",
+                            Table = "PurchasedCourse"
                         });
                 });
 
@@ -894,7 +928,7 @@ namespace DoAnThucTap.Data.Migrations
 
                     b.HasIndex("IdUser");
 
-                    b.ToTable("purchasedCourses");
+                    b.ToTable("PurchasedCourse");
                 });
 
             modelBuilder.Entity("DoAnThucTap.Data.Entites.Report", b =>
@@ -980,6 +1014,14 @@ namespace DoAnThucTap.Data.Migrations
                             CreateAt = new DateTime(2021, 12, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Quản trị toàn bộ hệ thống",
                             RoleName = "Quản trị hệ thống",
+                            UpdateAt = new DateTime(2021, 12, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreateAt = new DateTime(2021, 12, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Tài khoản do khách hàng tạo ngoài trang client",
+                            RoleName = "Khách hàng",
                             UpdateAt = new DateTime(2021, 12, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
                 });
@@ -1456,6 +1498,30 @@ namespace DoAnThucTap.Data.Migrations
                             MStPermissionId = 9208,
                             RoleId = 1,
                             UpdateAt = new DateTime(2021, 12, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            Id = 55,
+                            CreateAt = new DateTime(2021, 12, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            MStPermissionId = 9301,
+                            RoleId = 2,
+                            UpdateAt = new DateTime(2021, 12, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            Id = 56,
+                            CreateAt = new DateTime(2021, 12, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            MStPermissionId = 9302,
+                            RoleId = 2,
+                            UpdateAt = new DateTime(2021, 12, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            Id = 57,
+                            CreateAt = new DateTime(2021, 12, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            MStPermissionId = 9303,
+                            RoleId = 2,
+                            UpdateAt = new DateTime(2021, 12, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
                 });
 
@@ -1522,7 +1588,7 @@ namespace DoAnThucTap.Data.Migrations
                     b.Property<int?>("DislayOrder")
                         .HasColumnType("int");
 
-                    b.Property<int?>("IdLesson")
+                    b.Property<int?>("IdChapter")
                         .HasColumnType("int");
 
                     b.Property<string>("Question")
@@ -1534,7 +1600,7 @@ namespace DoAnThucTap.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("IdLesson");
+                    b.HasIndex("IdChapter");
 
                     b.ToTable("Test");
                 });
@@ -1602,8 +1668,8 @@ namespace DoAnThucTap.Data.Migrations
                             CreateBy = -1,
                             Gmail = "admin_test@gmail.com",
                             IdRole = 1,
-                            PasswordHash = new byte[] { 16, 142, 120, 174, 155, 37, 2, 146, 184, 244, 208, 73, 44, 47, 125, 34, 209, 123, 194, 53, 21, 4, 201, 198, 252, 245, 166, 22, 98, 120, 0, 32, 32, 215, 229, 1, 143, 116, 62, 213, 56, 244, 94, 64, 82, 63, 42, 120, 140, 238, 93, 186, 78, 65, 6, 113, 13, 21, 14, 73, 172, 65, 195, 102 },
-                            PasswordSalt = new byte[] { 134, 17, 32, 76, 121, 140, 71, 142, 166, 190, 238, 251, 107, 119, 97, 58, 149, 80, 142, 154, 225, 123, 56, 58, 92, 32, 211, 139, 236, 145, 50, 13, 108, 166, 53, 129, 41, 39, 243, 138, 152, 118, 152, 238, 2, 223, 86, 209, 210, 137, 218, 6, 168, 125, 100, 231, 174, 94, 58, 190, 52, 36, 68, 127, 117, 241, 124, 156, 174, 197, 201, 184, 18, 118, 88, 73, 163, 233, 61, 98, 135, 111, 226, 113, 76, 34, 207, 127, 93, 165, 145, 48, 255, 249, 202, 105, 75, 131, 168, 188, 213, 99, 35, 1, 11, 125, 74, 18, 143, 17, 83, 61, 231, 54, 157, 224, 7, 163, 172, 75, 148, 25, 171, 164, 143, 31, 231, 95 },
+                            PasswordHash = new byte[] { 210, 205, 190, 34, 128, 0, 242, 181, 246, 108, 135, 147, 46, 86, 41, 241, 68, 207, 90, 77, 255, 23, 233, 215, 166, 163, 143, 248, 184, 167, 220, 7, 132, 3, 253, 96, 130, 108, 254, 59, 82, 174, 126, 74, 72, 23, 56, 180, 124, 87, 12, 62, 180, 33, 223, 57, 191, 86, 135, 83, 239, 149, 225, 242 },
+                            PasswordSalt = new byte[] { 26, 248, 208, 104, 70, 180, 235, 111, 199, 190, 5, 4, 116, 154, 153, 40, 68, 125, 13, 40, 237, 234, 76, 76, 195, 7, 133, 54, 240, 134, 68, 53, 82, 38, 69, 244, 143, 76, 239, 76, 183, 32, 63, 220, 119, 40, 199, 161, 247, 96, 223, 127, 36, 62, 29, 254, 166, 49, 128, 195, 122, 185, 65, 86, 166, 181, 236, 144, 244, 131, 46, 8, 156, 34, 240, 205, 67, 35, 218, 36, 58, 107, 139, 78, 55, 169, 211, 165, 76, 16, 121, 133, 122, 10, 55, 81, 88, 17, 234, 92, 95, 122, 34, 143, 155, 113, 82, 17, 94, 59, 165, 140, 166, 134, 10, 66, 104, 190, 100, 239, 79, 159, 226, 248, 78, 59, 62, 68 },
                             PhoneNumber = "0928666158",
                             UpdateAt = new DateTime(2021, 11, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UserName = "admin"
@@ -1659,7 +1725,7 @@ namespace DoAnThucTap.Data.Migrations
 
             modelBuilder.Entity("DoAnThucTap.Data.Entites.PurchasedCourse", b =>
                 {
-                    b.HasOne("DoAnThucTap.Data.Entites.Subject", "subject")
+                    b.HasOne("DoAnThucTap.Data.Entites.CategorySub", "subject")
                         .WithMany("purchasedCourses")
                         .HasForeignKey("IdSub")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -1706,11 +1772,11 @@ namespace DoAnThucTap.Data.Migrations
 
             modelBuilder.Entity("DoAnThucTap.Data.Entites.Test", b =>
                 {
-                    b.HasOne("DoAnThucTap.Data.Entites.Lesson", "lesson")
+                    b.HasOne("DoAnThucTap.Data.Entites.Chapter", "chapter")
                         .WithMany("tests")
-                        .HasForeignKey("IdLesson");
+                        .HasForeignKey("IdChapter");
 
-                    b.Navigation("lesson");
+                    b.Navigation("chapter");
                 });
 
             modelBuilder.Entity("DoAnThucTap.Data.Entites.User", b =>
@@ -1729,19 +1795,21 @@ namespace DoAnThucTap.Data.Migrations
 
             modelBuilder.Entity("DoAnThucTap.Data.Entites.CategorySub", b =>
                 {
+                    b.Navigation("purchasedCourses");
+
                     b.Navigation("subjects");
                 });
 
             modelBuilder.Entity("DoAnThucTap.Data.Entites.Chapter", b =>
                 {
                     b.Navigation("lessons");
+
+                    b.Navigation("tests");
                 });
 
             modelBuilder.Entity("DoAnThucTap.Data.Entites.Lesson", b =>
                 {
                     b.Navigation("comemts");
-
-                    b.Navigation("tests");
                 });
 
             modelBuilder.Entity("DoAnThucTap.Data.Entites.MstPerMission", b =>
@@ -1759,8 +1827,6 @@ namespace DoAnThucTap.Data.Migrations
             modelBuilder.Entity("DoAnThucTap.Data.Entites.Subject", b =>
                 {
                     b.Navigation("chapters");
-
-                    b.Navigation("purchasedCourses");
                 });
 
             modelBuilder.Entity("DoAnThucTap.Data.Entites.Test", b =>

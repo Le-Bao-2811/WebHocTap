@@ -19,10 +19,15 @@ namespace DoAnThucTap.Web.Areas.Admin.Controllers
             _mapper = mapper;
         }
         [AppAuthorize(AuthConst.Subject.VIEW_LIST)]
-        public IActionResult Index(int page=1,int size=10)
+        public IActionResult Index(int? id,int page=1,int size=10)
         {
-            var data= _repo.GetAll<Subject,ListSubItemVM>(MapperConfig.SubIndexConf)
-                .ToPagedList(page, size);
+
+            var query= _repo.GetAll<Subject,ListSubItemVM>(MapperConfig.SubIndexConf);
+            if (id != null)
+            {
+               query= query.Where(x => x.IdCategorySub == id);
+            }
+            var data = query.ToPagedList(page, size);
             return View(data);
         }
         [AppAuthorize(AuthConst.Subject.CREATE)]

@@ -3,7 +3,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <form asp-action="_Create" enctype="multipart/form-data">
+            <form asp-action="_Create" class="js-form" enctype="multipart/form-data">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group" hidden>
                     <label asp-for="Id" class="control-label"></label>
@@ -19,14 +19,12 @@
                     <label asp-for="NameCategorySub" class="control-label">Danh mục bài học</label>
                     <input asp-for="NameCategorySub" class="form-control" />
                     <span asp-validation-for="NameCategorySub" class="text-danger"></span>
+                </div> <div class="form-group">
+                    <label asp-for="Descripstion" class="control-label">Danh mục bài học</label>
+                    <textarea asp-for="Descripstion" class="form-control" ></textarea>
+                    <span asp-validation-for="Descripstion" class="text-danger"></span>
                 </div>
-                <div class="form-group">
-                    <label asp-for="isPayment" class="control-label">
-                        <input asp-for="isPayment" />
-                        Khóa học này có phải trả tiền
-                    </label>
-                    <span asp-validation-for="isPayment" class="text-danger"></span>
-                </div>
+                <a class="btn btn-outline-success js-addprice">Thêm giá tiền</a>
             </form>
         </div>
     </div>

@@ -3,119 +3,32 @@
 <!-- Courses -->
 <secion id="course">
     <h1>Khóa học trả tiền</h1>
-    <p>cbhabciabkjcbacjabcjkacbao</p>
     <div class="course-box">
-        @foreach(var item in Model)
-            {
-        <div class="courses">
-            <img src="/img/categorysub/@item.pathImg" alt="">
-            <div class="details">
-                <span>@item.CreateAt.ToString()</span>
-                <h6>@item.NameCategorySub</h6>
-                <div class="star">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <span>(239)</span>
+        @foreach (var item in Model)
+        {
+            <div class="courses">
+                <img src="/img/categorysub/@item.pathImg" style="width:300px;height:150px" alt="">
+                <div class="details">
+                    <span>Ngày tạo: @item.CreateAt.ToDMY()</span>
+                    <h6>@item.NameCategorySub <i class="fa fa-lock" style="color: black;"></i> <i class="fa fa-check" style="color: green;"></i></h6>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <span>(239)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    @item.Price.Value.ToString("#,##0") VNĐ
+                </div>
+                <div class="btn">
+                    <a asp-action="DetailsSubject" asp-controller="SubjectClient" asp-route-id="@item.Id" class="blue">Xem</a>
                 </div>
             </div>
-            <div class="cost">
-                $43.99
-            </div>
-        </div>
-            }
-        <div class="courses">
-            <img src="/clientLTE/images/c1.jpg" alt="">
-            <div class="details">
-                <span>Updated 1/1/21</span>
-                <h6>JavaScript Course</h6>
-                <div class="star">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <span>(239)</span>
-                </div>
-            </div>
-            <div class="cost">
-                $43.99
-            </div>
-        </div>
-        <div class="courses">
-            <img src="/clientLTE/images/c1.jpg" alt="">
-            <div class="details">
-                <span>Updated 1/1/21</span>
-                <h6>JavaScript Course</h6>
-                <div class="star">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <span>(239)</span>
-                </div>
-            </div>
-            <div class="cost">
-                $43.99
-            </div>
-        </div>
-        <div class="courses">
-            <img src="/clientLTE/images/c1.jpg" alt="">
-            <div class="details">
-                <span>Updated 1/1/21</span>
-                <h6>JavaScript Course</h6>
-                <div class="star">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <span>(239)</span>
-                </div>
-            </div>
-            <div class="cost">
-                $43.99
-            </div>
-        </div>
-        <div class="courses">
-            <img src="/clientLTE/images/c1.jpg" alt="">
-            <div class="details">
-                <span>Updated 1/1/21</span>
-                <h6>JavaScript Course</h6>
-                <div class="star">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <span>(239)</span>
-                </div>
-            </div>
-            <div class="cost">
-                $43.99
-            </div>
-        </div>
-        <div class="courses">
-            <img src="/clientLTE/images/c1.jpg" alt="">
-            <div class="details">
-                <span>Updated 1/1/21</span>
-                <h6>JavaScript Course</h6>
-                <div class="star">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <span>(239)</span>
-                </div>
-            </div>
-            <div class="cost">
-                $43.99
-            </div>
-        </div>
+        }
+
 
     </div>
 </secion>

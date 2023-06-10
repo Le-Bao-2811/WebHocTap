@@ -23,8 +23,16 @@ namespace DoAnThucTap.Data.DataSender
                 CreateAt = now,
                 UpdateAt = now,
             };
-
+            var client = new Role
+            {
+                Id = 2,
+                RoleName = "Khách hàng",
+                Description = "Tài khoản do khách hàng tạo ngoài trang client",
+                CreateAt = now,
+                UpdateAt = now,
+            };
             builder.HasData(roleAdmin);
+            builder.HasData(client);
         }
     }
 }

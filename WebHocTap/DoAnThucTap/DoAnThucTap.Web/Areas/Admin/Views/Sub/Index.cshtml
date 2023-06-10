@@ -14,7 +14,22 @@
         </button>
     </div>
 }
-
+<div class="my-2">
+    <form asp-action="Index">
+        <div class="row">
+            <div class="col-md-4">
+                <select name="id" id="id" class="form-control">
+                    <option>Lọc danh mục</option>
+                    <vc:filter-category-sub-view-components></vc:filter-category-sub-view-components>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-outline-info"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+        </div>
+        
+    </form>
+</div>
 
 <div class="table-responsive">
     <table class="table table-bordered table-hover">
@@ -33,7 +48,7 @@
                 <tr>
                     <td class="fit">@item.Id</td>
                     <td>@item.NameSubject</td>
-                    <td>@item.IdCategorySub</td>
+                    <td>@item.CategorySub</td>
                     <td class="fit">@item.CreateAt.ToDMYHM()</td>
                     <td class="fit">
                         @if (User.IsInPermission(AuthConst.Subject.DELETE))

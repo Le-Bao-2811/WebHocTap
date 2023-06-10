@@ -3,6 +3,7 @@
     public class ListSubItemVM:BaseVM
     {
         public string NameSubject { get; set; }
-        public string IdCategorySub { get; set; }
+        public int? IdCategorySub { get; set; }
+        public string CategorySub { get; set; }
     }
 }

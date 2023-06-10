@@ -3,6 +3,6 @@
     public class ListTestItemVM:BaseVM
     {
         public string Question { get; set; }
-        public int? IdLesson { get; set; }
+        public int? IdChapter { get; set; }
     }
 }

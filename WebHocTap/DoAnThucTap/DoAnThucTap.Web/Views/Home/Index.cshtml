@@ -1,10 +1,17 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+<section id="home">
+    <h2>ELO</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam reiciendis veniam repudiandae vero eaque iste amet sunt aliquam est cupiditate provident, earum quidem, placeat facere perferendis ut nulla, expedita voluptate.</p>
+    <div class="btn">
+        <a class="blue" href="#">Learn More</a>
+        <a class="yellow" href="#">Visit Courses</a>
+    </div>
+</section>
 <vc:list-features-view-components></vc:list-features-view-components>
 <vc:list-category-sub-cl-view-components></vc:list-category-sub-cl-view-components>
-<vc:list-category-sub-payment-view-components></vc:list-category-sub-payment-view-components>
+<vc:list-category-sub-payment-view-components iduser = "@Convert.ToInt32(User.Claims.SingleOrDefault(c => c.Type.Contains(System.Security.Claims.ClaimTypes.NameIdentifier))?.Value)"></vc:list-category-sub-payment-view-components>
 <vc:list-sort-c-sub-cl-view-components></vc:list-sort-c-sub-cl-view-components>
 
 

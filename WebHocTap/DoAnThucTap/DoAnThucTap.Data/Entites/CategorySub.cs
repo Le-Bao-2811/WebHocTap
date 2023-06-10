@@ -14,10 +14,14 @@ namespace DoAnThucTap.Data.Entites
     {
         public CategorySub() { 
             subjects=new HashSet<Subject>();
+            purchasedCourses=new HashSet<PurchasedCourse>();
         }
         public string NameCategorySub { get; set; }
-        public bool isPayment { get; set; }
+        public int? Price { get; set; }
         public string pathImg { get; set; }
+        public int CountView { get; set; }
+        public string Descripstion { get; set; }
         public ICollection<Subject> subjects { get; set; }
+        public ICollection<PurchasedCourse> purchasedCourses { get; set; }
     }
 }

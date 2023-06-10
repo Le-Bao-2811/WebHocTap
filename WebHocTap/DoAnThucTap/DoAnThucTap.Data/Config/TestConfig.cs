@@ -13,9 +13,9 @@ namespace DoAnThucTap.Data.Config
     {
         public void Configure(EntityTypeBuilder<Test> builder)
         {
-            builder.HasOne(m => m.lesson)
+            builder.HasOne(m => m.chapter)
             .WithMany(m => m.tests)
-            .HasForeignKey(m => m.IdLesson);
+            .HasForeignKey(m => m.IdChapter);
         }
     }
 }

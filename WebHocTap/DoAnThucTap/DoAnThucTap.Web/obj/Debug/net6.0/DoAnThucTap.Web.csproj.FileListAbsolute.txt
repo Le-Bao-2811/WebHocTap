@@ -381,7 +381,6 @@ D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6
 D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\NuGet.ProjectModel.dll
 D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\NuGet.Protocol.dll
 D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\NuGet.Versioning.dll
-D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\PayPal.dll
 D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\System.CodeDom.dll
 D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\System.Composition.Convention.dll
@@ -600,3 +599,5 @@ D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\obj\Debug\net6
 D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\obj\Debug\net6.0\DoAnThucTap.Web.pdb
 D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\obj\Debug\net6.0\DoAnThucTap.Web.genruntimeconfig.cache
 D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\obj\Debug\net6.0\ref\DoAnThucTap.Web.dll
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\BraintreeHttp-Dotnet.dll
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\Source.dll

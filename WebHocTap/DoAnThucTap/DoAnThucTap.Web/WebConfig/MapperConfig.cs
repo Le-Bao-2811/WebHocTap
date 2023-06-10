@@ -11,6 +11,8 @@ using DoAnThucTap.Web.Areas.Admin.ViewModels.Test;
 using DoAnThucTap.Web.Areas.Admin.ViewModels.TestandAnswer;
 using DoAnThucTap.Web.Areas.Admin.ViewModels.User;
 using DoAnThucTap.Web.ViewModels;
+using DoAnThucTap.Web.ViewModels.Account;
+using DoAnThucTap.Web.ViewModels.Subject;
 
 namespace DoAnThucTap.Web.WebConfig
 {
@@ -26,6 +28,7 @@ namespace DoAnThucTap.Web.WebConfig
             CreateMap<Chapter,AddorUpdateChappterVM>().ReverseMap();
             CreateMap<Lesson,AddorUpdateLessonVM>().ReverseMap();
             CreateMap<Answer,UpdateAnswerVM>().ReverseMap();
+            CreateMap<User,SignUpVM>().ReverseMap();
         }
         public static MapperConfiguration RoleIndexConf = new(mapper =>
         {
@@ -73,7 +76,7 @@ namespace DoAnThucTap.Web.WebConfig
         {
             // Map dữ liệu từ kiểu AppRole sang RoleListItemVM
             mapper.CreateMap<Subject, ListSubItemVM>()
-            .ForMember(uItem => uItem.IdCategorySub,
+            .ForMember(uItem => uItem.CategorySub,
             otps => otps.MapFrom(uE => uE.categorySub.NameCategorySub));
         });
         public static MapperConfiguration ChapterIndexConf = new(mapper =>
@@ -95,6 +98,11 @@ namespace DoAnThucTap.Web.WebConfig
         {
             // Map dữ liệu từ kiểu AppRole sang RoleListItemVM
             mapper.CreateMap<Answer, ListAnswerItemVM>();
+        });
+        public static MapperConfiguration ListTestAnswerIndexConf = new(mapper =>
+        {
+            // Map dữ liệu từ kiểu AppRole sang RoleListItemVM
+            mapper.CreateMap<Test, TestAnswerClientVM>();
         });
     }
 }

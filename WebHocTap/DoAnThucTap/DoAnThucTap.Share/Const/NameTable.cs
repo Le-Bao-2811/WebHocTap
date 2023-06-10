@@ -22,5 +22,7 @@ namespace DoAnThucTap.Share.Const
         public const string SubjectTable = "Subject";
         public const string TestTable = "Test";
         public const string UserTable = "User";
+        public const string PurchasedCourseTable = "PurchasedCourse";
+
     }
 }

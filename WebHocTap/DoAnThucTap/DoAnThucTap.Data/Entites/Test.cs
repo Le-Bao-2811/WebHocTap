@@ -16,8 +16,8 @@ namespace DoAnThucTap.Data.Entites
             answers=new HashSet<Answer>();
         }
         public string Question { get; set; }
-        public int? IdLesson { get; set; }
-        public Lesson lesson { get; set; }
+        public int? IdChapter { get; set; }
+        public Chapter chapter { get; set; }
         public ICollection<Answer>answers { get; set; }
     }
 }

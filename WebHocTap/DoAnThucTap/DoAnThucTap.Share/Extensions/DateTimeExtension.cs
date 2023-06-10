@@ -33,5 +33,6 @@ namespace DoAnThucTap.Share.Extensions
         {
             return date.ToString("dd/MM/yyyy HH:mm");
         }
+        
     }
 }

@@ -2,17 +2,31 @@
     $(".modal-AddorUpdate").html("");
 
     var id = ev.currentTarget.getAttribute("data-id")
+    let url = "";
     if (id != null) {
-        $("#exampleModalLabel").html("Sửa danh mục bài học")
-        $.get("/admin/CategorySub/_Update/" + id, (ev) => {
-            $(".modal-AddorUpdate").append(ev);
-        })
-    } else {
-        $("#exampleModalLabel").html("Thêm danh mục bài học")
-        $.get("/admin/CategorySub/_Create", (ev) => {
-            $(".modal-AddorUpdate").append(ev);
-        })
+        url = "_Update/" + id;
     }
+    else {
+        url = "_Create";
+    }
+    $("#exampleModalLabel").html("Sửa danh mục bài học")
+    $.get("/admin/CategorySub/" + url, (ev) => {
+        $(".modal-AddorUpdate").append(ev);
+    }).then(() => {
+        $(".js-addprice").click((ev) => {
+            ev.preventDefault();
+            var html = `
+                <div class="form-group">
+                    <label class="control-label">Giá tiền</label>
+                    <input name="Price" id="Price" type="text" class="form-control" />
+                    <span class="text-danger"></span>
+                </div>
+            `
+            var form = document.querySelector(".js-form");
+            form.insertAdjacentHTML("beforeend", html)
+        })
+    })
+    
 })
 
 $(".js-postdata").click(() => {
@@ -31,7 +45,7 @@ $(".js-postdata").click(() => {
         $("input[type='text'").each(function (x, y) {
             fdata.append($(y).attr("name"), $(y).val());
         });
-        $("input[type='checkbox'").each(function (x, y) {
+        $("textarea").each(function (x, y) {
             fdata.append($(y).attr("name"), $(y).val());
         });
         // gửi data
@@ -62,3 +76,4 @@ $(".js-postdata").click(() => {
     }
 
 })
+

@@ -96,9 +96,14 @@ namespace DoAnThucTap.Share.Const
             public const int UPDATE = 9204;
             public const int DELETE = 9208;
         }
-        
-       
-       
-       
+        public static class PurchasedCourse
+        {
+            public const int VIEW_LIST = 9301;
+            public const int VIEW_DETAIL = 9302;
+            public const int CREATE = 9303;
+        }
+
+
+
     }
 }

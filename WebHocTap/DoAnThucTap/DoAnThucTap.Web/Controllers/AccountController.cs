@@ -1,7 +1,9 @@
-﻿using DoAnThucTap.Data.Entites;
+﻿using AutoMapper;
+using DoAnThucTap.Data.Entites;
 using DoAnThucTap.Data.Reponsitory;
 using DoAnThucTap.Share.Const;
 using DoAnThucTap.Web.ViewModels;
+using DoAnThucTap.Web.ViewModels.Account;
 using DoAnThucTap.Web.WebConfig;
 using DoAnThucTap.Web.WebConfig.Const;
 using Microsoft.AspNetCore.Authentication;
@@ -13,13 +15,53 @@ namespace DoAnThucTap.Web.Controllers
 {
     public class AccountController : BaseClientController
     {
-        public AccountController(BaseReponsitory _repo):base(_repo)
+        public readonly IMapper _mapper;
+        public AccountController(BaseReponsitory _repo,IMapper mapper):base(_repo)
         {
+            _mapper = mapper;
         }
-
-        public IActionResult Login()
+        public IActionResult SignUp()
         {
             return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> SignUp(SignUpVM model)
+        {
+            if (!ModelState.IsValid)
+            {
+                SetErrorMesg("Dữ liệu không hợp lệ vui lòng kiểm tra lại!");
+                return View(model);
+            }
+            model.UserName = model.UserName.ToLower();
+            if (await _repo.AnyAsync<User>(x => x.UserName == model.UserName))
+            {
+                SetErrorMesg("Tên đăng nhập đã tồn tại vui lòng kiểm tra lại!");
+                return View(model);
+            }
+
+            if (model.IsSubmit == false)
+            {
+                SetErrorMesg("Bạn chưa đồng ý điều khoản và điều kiện!");
+                return View(model);
+            }
+            try
+            {
+                var hashResult = HashHMACSHA512(model.Password);
+                model.PasswordHash = hashResult.Value;
+                model.PasswordSalt = hashResult.Key;
+                var user = _mapper.Map<User>(model);
+                user.IdRole = 2;
+                await _repo.AddAsync(user);
+                return RedirectToAction("Index","Home");
+            }
+            catch (Exception ex)
+            {
+                return View(model);
+            }
+        }
+        public IActionResult Login()
+        {
+            return PartialView();
         }
         
         [HttpPost]
@@ -59,7 +101,7 @@ namespace DoAnThucTap.Web.Controllers
                 IsPersistent = model.RemeberMe
             };
             await HttpContext.SignInAsync(AppConst.COOKIES_AUTH, principal, authenPropeties);
-
+            SetSuccessMesg("Đăng nhập thành công");
             //CreateDirIfNotExist(model.Username);
             //var returnUrl = Request.Query["ReturnUrl"].ToString();
             //if (returnUrl.IsNullOrEmpty())
@@ -67,6 +109,12 @@ namespace DoAnThucTap.Web.Controllers
             //    return HomePage();
             //}
             return RedirectToAction(nameof(Index), "Home");
+        }
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(AppConst.COOKIES_AUTH);
+            SetSuccessMesg("Đã đăng xuất");
+            return RedirectToAction("Index", "Home", new { area = "" });
         }
     }
 }

@@ -62,6 +62,15 @@
           }
         }
       },
+      "BraintreeHttp-Dotnet/0.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/BraintreeHttp-Dotnet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/BraintreeHttp-Dotnet.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -2042,20 +2051,16 @@
           }
         }
       },
-      "PayPal/1.9.1": {
+      "PayPal/2.0.0-rc2": {
         "type": "package",
         "dependencies": {
-          "Newtonsoft.Json": "7.0.1"
+          "BraintreeHttp-Dotnet": "0.3.0"
         },
         "compile": {
-          "lib/net451/PayPal.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Source.dll": {}
         },
         "runtime": {
-          "lib/net451/PayPal.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Source.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -3909,6 +3914,18 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "BraintreeHttp-Dotnet/0.3.0": {
+      "sha512": "ARHcstlJ2uRxqJVAxhJ7PJbzsDD9us+docpKHuay6psUVpQJo4cH0negfo8rv/iEakGhx0Rxgp/HUu6ZLa+lsA==",
+      "type": "package",
+      "path": "braintreehttp-dotnet/0.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "braintreehttp-dotnet.0.3.0.nupkg.sha512",
+        "braintreehttp-dotnet.nuspec",
+        "lib/netstandard2.0/BraintreeHttp-Dotnet.dll"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -6581,20 +6598,15 @@
         "nuget.versioning.nuspec"
       ]
     },
-    "PayPal/1.9.1": {
-      "sha512": "b3vq6Lc9CwSooCX2tsZ02zb7E/K/cA6EILCoMynue+ZeVuitJNqt0YwxPnp7uN0Pccob02oDlpAjRLH+GRCRxA==",
+    "PayPal/2.0.0-rc2": {
+      "sha512": "QmsC08dT2Bp4zxsWAXYnnYDL3x870LbC81Hodlmm3Df/WGUOVkcyMSFcTdZ8l0Xw823WW6WgZVl2ZIx7phWuCw==",
       "type": "package",
-      "path": "paypal/1.9.1",
+      "path": "paypal/2.0.0-rc2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net40/PayPal.dll",
-        "lib/net40/PayPal.xml",
-        "lib/net45/PayPal.dll",
-        "lib/net45/PayPal.xml",
-        "lib/net451/PayPal.dll",
-        "lib/net451/PayPal.xml",
-        "paypal.1.9.1.nupkg.sha512",
+        "lib/netstandard2.0/Source.dll",
+        "paypal.2.0.0-rc2.nupkg.sha512",
         "paypal.nuspec"
       ]
     },
@@ -10827,7 +10839,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.13",
-      "PayPal >= 1.9.1",
+      "PayPal >= 2.0.0-rc2",
       "X.PagedList >= 8.4.3",
       "X.PagedList.Mvc.Core >= 8.4.3",
       "X.PagedList.Web.Common >= 8.0.7",
@@ -10910,7 +10922,7 @@
           },
           "PayPal": {
             "target": "Package",
-            "version": "[1.9.1, )"
+            "version": "[2.0.0-rc2, )"
           },
           "X.PagedList": {
             "target": "Package",
@@ -10951,17 +10963,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.1.22431.12\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'PayPal 1.9.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "PayPal",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

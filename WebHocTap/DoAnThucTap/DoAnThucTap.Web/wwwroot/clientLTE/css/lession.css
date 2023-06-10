@@ -4,6 +4,7 @@
 }
 
 #main {
+    z-index:500;
     background: #eee;
     padding-bottom: 1.6rem;
 }

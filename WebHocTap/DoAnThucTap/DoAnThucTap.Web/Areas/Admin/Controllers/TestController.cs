@@ -19,14 +19,14 @@ namespace DoAnThucTap.Web.Areas.Admin.Controllers
         public IActionResult Index(int id,int page=1,int size=10)
         {
             var data= _repo.GetAll<Test,ListTestItemVM>(MapperConfig.TestIndexConf)
-                .Where(x => x.IdLesson == id).ToPagedList(page,size);
+                .Where(x => x.IdChapter == id).ToPagedList(page,size);
             ViewBag.IdLesson= id;
             return View(data);
         }
         public IActionResult Create(int id)
         {
             var data = new AddorEditQAVM();
-            data.IdLesson = id;
+            data.IdChapter = id;
             return View(data);
         }
         [HttpPost]
@@ -34,7 +34,7 @@ namespace DoAnThucTap.Web.Areas.Admin.Controllers
         {
             var data = new Test();
             data.Question = model.Question;
-            data.IdLesson=model.IdLesson;
+            data.IdChapter =model.IdChapter;
             List<Answer> answers =new List<Answer>();
             foreach(var item in model.AnswerFail)
             {
@@ -55,7 +55,7 @@ namespace DoAnThucTap.Web.Areas.Admin.Controllers
             data.answers = answers;
             await _repo.AddAsync(data);
             SetSuccessMesg("Thêm câu hỏi thành công");
-            return RedirectToAction("Index", new { id = data.IdLesson });
+            return RedirectToAction("Index", new { id = data.IdChapter });
         }
         public async Task<IActionResult> Detail(int id)
         {
@@ -79,7 +79,7 @@ namespace DoAnThucTap.Web.Areas.Admin.Controllers
                 await _repo.DeleteAsync(data);
                 SetSuccessMesg("Xóa thành công");
             }
-            return RedirectToAction("Index", new { id = data.IdLesson });
+            return RedirectToAction("Index", new { id = data.IdChapter });
         }
         public IActionResult ListAnswer(int id)
         {

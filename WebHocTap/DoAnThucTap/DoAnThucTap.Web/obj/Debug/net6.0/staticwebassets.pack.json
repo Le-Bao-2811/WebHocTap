@@ -301,6 +301,10 @@
       "PackagePath": "staticwebassets\\clientLTE\\css\\courses.css"
     },
     {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\clientLTE\\css\\detailsub.css",
+      "PackagePath": "staticwebassets\\clientLTE\\css\\detailsub.css"
+    },
+    {
       "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\clientLTE\\css\\lbrary.css",
       "PackagePath": "staticwebassets\\clientLTE\\css\\lbrary.css"
     },
@@ -309,8 +313,16 @@
       "PackagePath": "staticwebassets\\clientLTE\\css\\lession.css"
     },
     {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\clientLTE\\css\\login.css",
+      "PackagePath": "staticwebassets\\clientLTE\\css\\login.css"
+    },
+    {
       "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\clientLTE\\css\\style.css",
       "PackagePath": "staticwebassets\\clientLTE\\css\\style.css"
+    },
+    {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\clientLTE\\css\\test.css",
+      "PackagePath": "staticwebassets\\clientLTE\\css\\test.css"
     },
     {
       "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\clientLTE\\images\\back.jpg",
@@ -335,6 +347,26 @@
     {
       "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\clientLTE\\images\\development.svg",
       "PackagePath": "staticwebassets\\clientLTE\\images\\development.svg"
+    },
+    {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\clientLTE\\images\\img\\error.svg",
+      "PackagePath": "staticwebassets\\clientLTE\\images\\img\\error.svg"
+    },
+    {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\clientLTE\\images\\img\\info.svg",
+      "PackagePath": "staticwebassets\\clientLTE\\images\\img\\info.svg"
+    },
+    {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\clientLTE\\images\\img\\question.svg",
+      "PackagePath": "staticwebassets\\clientLTE\\images\\img\\question.svg"
+    },
+    {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\clientLTE\\images\\img\\success.svg",
+      "PackagePath": "staticwebassets\\clientLTE\\images\\img\\success.svg"
+    },
+    {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\clientLTE\\images\\img\\warning.svg",
+      "PackagePath": "staticwebassets\\clientLTE\\images\\img\\warning.svg"
     },
     {
       "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\clientLTE\\images\\it-and-networking.svg",
@@ -369,6 +401,14 @@
       "PackagePath": "staticwebassets\\clientLTE\\images\\office-productivity.svg"
     },
     {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\clientLTE\\js\\check.js",
+      "PackagePath": "staticwebassets\\clientLTE\\js\\check.js"
+    },
+    {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\clientLTE\\js\\detaillesson.js",
+      "PackagePath": "staticwebassets\\clientLTE\\js\\detaillesson.js"
+    },
+    {
       "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\clientLTE\\js\\function.js",
       "PackagePath": "staticwebassets\\clientLTE\\js\\function.js"
     },
@@ -381,6 +421,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\img\\categorysub\\CDL10_104-06-2023-12-58-06-335.jpg",
+      "PackagePath": "staticwebassets\\img\\categorysub\\CDL10_104-06-2023-12-58-06-335.jpg"
+    },
+    {
       "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\img\\categorysub\\logo17-05-2023-14-17-53-295.jpg",
       "PackagePath": "staticwebassets\\img\\categorysub\\logo17-05-2023-14-17-53-295.jpg"
     },
@@ -389,8 +433,24 @@
       "PackagePath": "staticwebassets\\img\\categorysub\\logo17-05-2023-14-19-02-467.jpg"
     },
     {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\img\\categorysub\\logo29-05-2023-15-23-43-500.jpg",
+      "PackagePath": "staticwebassets\\img\\categorysub\\logo29-05-2023-15-23-43-500.jpg"
+    },
+    {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\img\\categorysub\\quan-baggy-nam-80004-06-2023-12-58-38-936.jpg",
+      "PackagePath": "staticwebassets\\img\\categorysub\\quan-baggy-nam-80004-06-2023-12-58-38-936.jpg"
+    },
+    {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\img\\categorysub\\somi04-06-2023-13-07-45-430.jpg",
+      "PackagePath": "staticwebassets\\img\\categorysub\\somi04-06-2023-13-07-45-430.jpg"
+    },
+    {
       "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\img\\categorysub\\z3835472836387_0249d7e1f14768e2017-05-2023-14-18-36-854.jpg",
       "PackagePath": "staticwebassets\\img\\categorysub\\z3835472836387_0249d7e1f14768e2017-05-2023-14-18-36-854.jpg"
+    },
+    {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\img\\categorysub\\z3835472836387_0249d7e1f14768e2029-05-2023-14-56-36-488.jpg",
+      "PackagePath": "staticwebassets\\img\\categorysub\\z3835472836387_0249d7e1f14768e2029-05-2023-14-56-36-488.jpg"
     },
     {
       "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\img\\news\\z4216157868895_6ead2eada502747668111dc8f29ab8c307-05-2023-20-47-20-229.jpg",

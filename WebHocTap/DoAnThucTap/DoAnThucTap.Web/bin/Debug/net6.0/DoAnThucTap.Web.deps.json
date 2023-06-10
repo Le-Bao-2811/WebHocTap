@@ -16,7 +16,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.5",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13",
-          "PayPal": "1.9.1",
+          "PayPal": "2.0.0-rc2",
           "X.PagedList": "8.4.3",
           "X.PagedList.Mvc.Core": "8.4.3",
           "X.PagedList.Web.Common": "8.0.7",
@@ -68,6 +68,14 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.6.0.0",
             "fileVersion": "1.600.22.20503"
+          }
+        }
+      },
+      "BraintreeHttp-Dotnet/0.3.0": {
+        "runtime": {
+          "lib/netstandard2.0/BraintreeHttp-Dotnet.dll": {
+            "assemblyVersion": "0.3.0.0",
+            "fileVersion": "0.3.0.0"
           }
         }
       },
@@ -1586,14 +1594,14 @@
           }
         }
       },
-      "PayPal/1.9.1": {
+      "PayPal/2.0.0-rc2": {
         "dependencies": {
-          "Newtonsoft.Json": "13.0.1"
+          "BraintreeHttp-Dotnet": "0.3.0"
         },
         "runtime": {
-          "lib/net451/PayPal.dll": {
-            "assemblyVersion": "1.9.1.0",
-            "fileVersion": "1.9.1.0"
+          "lib/netstandard2.0/Source.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
           }
         }
       },
@@ -2559,6 +2567,13 @@
       "path": "azure.identity/1.6.0",
       "hashPath": "azure.identity.1.6.0.nupkg.sha512"
     },
+    "BraintreeHttp-Dotnet/0.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ARHcstlJ2uRxqJVAxhJ7PJbzsDD9us+docpKHuay6psUVpQJo4cH0negfo8rv/iEakGhx0Rxgp/HUu6ZLa+lsA==",
+      "path": "braintreehttp-dotnet/0.3.0",
+      "hashPath": "braintreehttp-dotnet.0.3.0.nupkg.sha512"
+    },
     "Humanizer.Core/2.14.1": {
       "type": "package",
       "serviceable": true,
@@ -3147,12 +3162,12 @@
       "path": "nuget.versioning/6.3.1",
       "hashPath": "nuget.versioning.6.3.1.nupkg.sha512"
     },
-    "PayPal/1.9.1": {
+    "PayPal/2.0.0-rc2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-b3vq6Lc9CwSooCX2tsZ02zb7E/K/cA6EILCoMynue+ZeVuitJNqt0YwxPnp7uN0Pccob02oDlpAjRLH+GRCRxA==",
-      "path": "paypal/1.9.1",
-      "hashPath": "paypal.1.9.1.nupkg.sha512"
+      "sha512": "sha512-QmsC08dT2Bp4zxsWAXYnnYDL3x870LbC81Hodlmm3Df/WGUOVkcyMSFcTdZ8l0Xw823WW6WgZVl2ZIx7phWuCw==",
+      "path": "paypal/2.0.0-rc2",
+      "hashPath": "paypal.2.0.0-rc2.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",

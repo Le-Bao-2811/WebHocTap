@@ -14,10 +14,12 @@ namespace DoAnThucTap.Data.Entites
     {
         public Chapter() { 
             lessons=new HashSet<Lesson>();
+            tests=new HashSet<Test>();
         }
         public string NameChapter { get; set; }
         public int? IdSubject { get; set; }
         public Subject subject { get; set; }
+        public ICollection<Test> tests { get; set; }
         public ICollection<Lesson> lessons { get; set; }
     }
 }

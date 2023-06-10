@@ -567,6 +567,40 @@ namespace DoAnThucTap.Data.DataSender
                 }
             );
             #endregion
+            #region Data liên quan đến bảng User
+            // Permission liên quan đến bảng AppRole
+            groupName = "Quản lý mua khóa học";
+            builder.HasData(
+                new MstPerMission
+                {
+                    Id = AuthConst.PurchasedCourse.CREATE,
+                    Code = "CREATE",
+                    Table = NameTable.PurchasedCourseTable,
+                    GroupName = groupName,
+                    Desc = "Mua khóa học",
+                    CreateAt = now
+                },
+               
+                new MstPerMission
+                {
+                    Id = AuthConst.PurchasedCourse.VIEW_DETAIL,
+                    Code = "VIEW_DETAIL",
+                    Table = NameTable.PurchasedCourseTable,
+                    GroupName = groupName,
+                    Desc = "Xem chi tiết khóa học",
+                    CreateAt = now
+                },
+                new MstPerMission
+                {
+                    Id = AuthConst.PurchasedCourse.VIEW_LIST,
+                    Code = "VIEW_LIST",
+                    Table = NameTable.PurchasedCourseTable,
+                    GroupName = groupName,
+                    Desc = "Xem danh sách khóa học",
+                    CreateAt = now
+                }
+            );
+            #endregion
         }
     }
 }
