@@ -14,6 +14,7 @@ namespace DoAnThucTap.Data.Entites
     {
         public int IdSub { get; set; }
         public int IdUser { get; set; }
+        public int? Price { get; set; }
         public CategorySub subject { get; set; }
         public User user { get; set; }
     }

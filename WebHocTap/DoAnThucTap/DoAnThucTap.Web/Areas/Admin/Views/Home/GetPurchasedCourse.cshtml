@@ -1,0 +1,45 @@
+﻿@model IEnumerable<DoAnThucTap.Web.Areas.Admin.ViewModels.Home.ListPurchasedCourseItem>
+
+@{
+    ViewData["Title"] = "Danh sách người mua khóa học";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<form asp-action="GetPurchasedCourse">
+    <div class="my-2">
+        <input type="date" name="date" class="form-control" id="date" />
+    </div>
+    <div class="col-md-2">
+        <button class="btn btn-outline-info"><i class="fa fa-search" aria-hidden="true"></i></button>
+    </div>
+</form>
+
+<div class="table-responsive">
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Khóa học</th>
+                <th>Tên người mua</th>
+                <th>Giá tiền</th>
+                <th>Ngày tạo</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+
+                <tr>
+                    <td class="fit">@item.Id</td>
+                    <td>@item.SubName</td>
+                    <td>@item.UserName</td>
+                    <td>@item.Price.ToString("#,##0") VNĐ</td>
+                    <td class="fit">@item.CreateAt.ToDMYHM()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<partial name="_Pager" />
+

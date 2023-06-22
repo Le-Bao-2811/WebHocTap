@@ -14,6 +14,8 @@ namespace DoAnThucTap.Web.ViewModels.Account
         [AppRequired]
         public string Gmail { get; set; }
         [AppRequired]
+        [MinLength(10)]
+        [MaxLength(11)]
         public string PhoneNumber { get; set; }
         public int IdRole { get; set; }
         public bool? IsSubmit { get; set; }

@@ -3,6 +3,7 @@ using DoAnThucTap.Data.Entites;
 using DoAnThucTap.Web.Areas.Admin.ViewModels.CategoryNew;
 using DoAnThucTap.Web.Areas.Admin.ViewModels.CategorySub;
 using DoAnThucTap.Web.Areas.Admin.ViewModels.Chapter;
+using DoAnThucTap.Web.Areas.Admin.ViewModels.Home;
 using DoAnThucTap.Web.Areas.Admin.ViewModels.Lesson;
 using DoAnThucTap.Web.Areas.Admin.ViewModels.News;
 using DoAnThucTap.Web.Areas.Admin.ViewModels.Role;
@@ -10,6 +11,7 @@ using DoAnThucTap.Web.Areas.Admin.ViewModels.Sub;
 using DoAnThucTap.Web.Areas.Admin.ViewModels.Test;
 using DoAnThucTap.Web.Areas.Admin.ViewModels.TestandAnswer;
 using DoAnThucTap.Web.Areas.Admin.ViewModels.User;
+using DoAnThucTap.Web.Components.ListNewViewComponents;
 using DoAnThucTap.Web.ViewModels;
 using DoAnThucTap.Web.ViewModels.Account;
 using DoAnThucTap.Web.ViewModels.Subject;
@@ -103,6 +105,20 @@ namespace DoAnThucTap.Web.WebConfig
         {
             // Map dữ liệu từ kiểu AppRole sang RoleListItemVM
             mapper.CreateMap<Test, TestAnswerClientVM>();
+        });
+        public static MapperConfiguration ListCateNewClIndexConf = new(mapper =>
+        {
+            // Map dữ liệu từ kiểu AppRole sang RoleListItemVM
+            mapper.CreateMap<CategoryNew, ListNewVM>();
+        });
+        public static MapperConfiguration PurchasedCourseIndexConf = new(mapper =>
+        {
+            // Map dữ liệu từ kiểu AppRole sang RoleListItemVM
+            mapper.CreateMap<PurchasedCourse, ListPurchasedCourseItem>()
+            .ForMember(uItem => uItem.UserName,
+            otps => otps.MapFrom(uE => uE.user.UserName))
+            .ForMember(uItem => uItem.SubName,
+            otps => otps.MapFrom(uE => uE.subject.NameCategorySub));
         });
     }
 }

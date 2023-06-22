@@ -92,7 +92,7 @@ namespace DoAnThucTap.Web.Controllers
                 RedirectUrls = new PayPal.v1.Payments.RedirectUrls()
                 {
                     CancelUrl = $"{hostname}/Home/CheckoutFail",
-                    ReturnUrl = $"{hostname}/Home/CheckoutSuccess"
+                    ReturnUrl = $"{hostname}/Home/CheckoutSuccess/{categorysub.Id}"
                 },
                 Payer = new PayPal.v1.Payments.Payer()
                 {
@@ -120,10 +120,7 @@ namespace DoAnThucTap.Web.Controllers
                         paypalRedirectUrl = lnk.Href;
                     }
                 }
-                var purchasedCourse = new PurchasedCourse();
-                purchasedCourse.IdUser = Convert.ToInt32(User.Claims.SingleOrDefault(c => c.Type.Contains(System.Security.Claims.ClaimTypes.NameIdentifier))?.Value);
-                purchasedCourse.IdSub = categorysub.Id;
-                await _repo.AddAsync(purchasedCourse);
+                
                 return Redirect(paypalRedirectUrl);
             }
             catch (HttpException httpException)
@@ -135,8 +132,14 @@ namespace DoAnThucTap.Web.Controllers
                 return Redirect("/Home/CheckoutFail");
             }
         }
-        public IActionResult CheckoutSuccess()
+        public async Task<IActionResult> CheckoutSuccess(int id)
         {
+            var subject = await _repo.FindAsync<CategorySub>(id);
+            var purchasedCourse = new PurchasedCourse();
+            purchasedCourse.IdUser = Convert.ToInt32(User.Claims.SingleOrDefault(c => c.Type.Contains(System.Security.Claims.ClaimTypes.NameIdentifier))?.Value);
+            purchasedCourse.IdSub = id;
+            purchasedCourse.Price=subject.Price;
+            await _repo.AddAsync(purchasedCourse);
             return View();
         }
         public IActionResult CheckoutFail()
@@ -157,23 +160,18 @@ namespace DoAnThucTap.Web.Controllers
                 var data = new List<CategorySub>();
                 foreach (var c in categorysub)
                 {
+                    var check = false;
                     foreach (var k in key)
                     {
-                        if (c.Id != k.IdSub)
+                        if (c.Id == k.IdSub)
                         {
-                            data.Add(c);
+                            check = true;
+                            break;
                         }
                     }
-                }
-                // lọc lại những phần tử trùng nhau ở vòng lặp ở trên
-                for (int i = 0; i < data.Count(); i++)
-                {
-                    for (int j = i+1; j < data.Count(); j++)
+                    if (!check)
                     {
-                        if (data[i].Id == data[j].Id)
-                        {
-                            data.RemoveAt(j);
-                        }
+                        data.Add(c);
                     }
                 }
                 var data1 = data.ToPagedList(page, size);

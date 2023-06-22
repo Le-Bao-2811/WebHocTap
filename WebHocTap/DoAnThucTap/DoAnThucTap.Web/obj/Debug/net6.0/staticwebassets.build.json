@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yxyzhVqu0m9HF7sSm6hSYGlyxy2oMZZ3yutWocly+rc=",
+  "Hash": "Xo4LN/ucRVM668sczpTQSRodbS9WPIWVkrdcMiSE4BA=",
   "Source": "DoAnThucTap.Web",
   "BasePath": "_content/DoAnThucTap.Web",
   "Mode": "Default",
@@ -1953,6 +1953,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\categorysub\\z3835472836387_0249d7e1f14768e2029-05-2023-14-56-36-488.jpg"
+    },
+    {
+      "Identity": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\img\\news\\quan-baggy-nam-80011-06-2023-10-36-06-658.jpg",
+      "SourceId": "DoAnThucTap.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\",
+      "BasePath": "_content/DoAnThucTap.Web",
+      "RelativePath": "img/news/quan-baggy-nam-80011-06-2023-10-36-06-658.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\news\\quan-baggy-nam-80011-06-2023-10-36-06-658.jpg"
+    },
+    {
+      "Identity": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\img\\news\\quan-baggy-nam-80011-06-2023-10-36-27-361.jpg",
+      "SourceId": "DoAnThucTap.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\",
+      "BasePath": "_content/DoAnThucTap.Web",
+      "RelativePath": "img/news/quan-baggy-nam-80011-06-2023-10-36-27-361.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\news\\quan-baggy-nam-80011-06-2023-10-36-27-361.jpg"
     },
     {
       "Identity": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\img\\news\\z4216157868895_6ead2eada502747668111dc8f29ab8c307-05-2023-20-47-20-229.jpg",

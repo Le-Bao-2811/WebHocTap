@@ -23,25 +23,22 @@ namespace DoAnThucTap.Web.Components.ListCategorySubPaymentViewComponents
                 var data = new List<CategorySub>();
                 foreach (var c in categorysub)
                 {
+                    var check=false;
                     foreach (var k in key)
                     {
-                        if (c.Id != k.IdSub)
+                      if(c.Id==k.IdSub)
                         {
-                            data.Add(c);
-                        }
+                            check = true;
+                            break;
+                        }    
+                    }
+                    if (!check)
+                    {
+                        data.Add(c);    
                     }
                 }
                 // lọc lại những phần tử trùng nhau ở vòng lặp ở trên
-                for (int i = 0; i < data.Count(); i++)
-                {
-                    for (int j = +1; j < data.Count(); j++)
-                    {
-                        if (data[i].Id == data[j].Id)
-                        {
-                            data.RemoveAt(j);
-                        }
-                    }
-                }
+               
                 var data1 = data.Take(8).ToList();
                 return View(data1);
             }

@@ -27,7 +27,7 @@
         <div class="nagivation">
             <ul>
                 <i id="menu-close" class="fas fa-times"></i>
-                <div class="dropdown">
+                <div class="dropdown p-1">
                     <button class="dropbtn">
                         <i class="fa fa-th" aria-hidden="true"></i> Khóa học <i class="fa fa-angle-down" aria-hidden="true"></i>
                     </button>
@@ -43,9 +43,9 @@
                             <i class="fa fa-th" aria-hidden="true"></i> Xin chào @User.Identity.Name <i class="fa fa-angle-down" aria-hidden="true"></i>
                         </button>
                         <div class="dropdown-content">
-                            @if (Convert.ToInt32(User.Claims.SingleOrDefault(c => c.Type.Contains(System.Security.Claims.ClaimTypes.NameIdentifier))?.Value)!=2)
+                            @if (Convert.ToInt32(User.Claims.SingleOrDefault(c => c.Type.Contains(AppClaimType.RoleId))?.Value) != 2)
                             {
-                                <a class="dropdown-item" asp-action="Index" asp-controller="Role" asp-area="Admin">Quản lý trang web</a>         
+                                <a class="dropdown-item" asp-action="Index" asp-controller="Home" asp-area="Admin">Quản lý trang web</a>         
                             }
                             <a class="dropdown-item" asp-action="ListSubUserBuy" asp-controller="Home">Khóa học đã mua</a>         
                             <a class="dropdown-item" asp-action="ChangePassword" asp-controller="Auth" asp-route-id="@Convert.ToInt32(User.Claims.SingleOrDefault(c => c.Type.Contains(System.Security.Claims.ClaimTypes.NameIdentifier))?.Value)">Đổi mật khẩu</a>
@@ -72,36 +72,6 @@
     @RenderBody()
     <!-- Registration -->
 
-    <section id="registration">
-        <div class="reminder">
-            <p>Get Online Courses for Free</p>
-            <h1>Register To Get It</h1>
-            <div class="time">
-                <div class="date">
-                    18 <br> Days
-                </div>
-                <div class="date">
-                    18 <br> Hours
-                </div>
-                <div class="date">
-                    18 <br> Minutes
-                </div>
-                <div class="date">
-                    18 <br> Seconds
-                </div>
-            </div>
-        </div>
-
-        <div class="form">
-            <h3>Create Free Account NOW!</h3>
-            <input type="text" placeholder="Name" name="" id="">
-            <input type="text" placeholder="Email" name="" id="">
-            <input type="text" placeholder="Phone Number" name="" id="">
-            <div class="btn">
-                <a href="#" class="yellow">Submit</a>
-            </div>
-        </div>
-    </section>
 
     <footer>
         <div class="footer-col">
