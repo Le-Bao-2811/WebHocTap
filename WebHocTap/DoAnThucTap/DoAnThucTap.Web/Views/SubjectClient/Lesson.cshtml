@@ -3,6 +3,7 @@
 @{
     ViewData["Title"] = "Lesson";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var i = 0;
 }
 <link href="~/clientLTE/css/lession.css" rel="stylesheet" />
 <section id="main" style="padding-top:150px">
@@ -12,15 +13,15 @@
             <!-- Left Col -->
             <div class="leftcol-lession">
                 <div class="card-lession">
-                    <div class="mini-logo">
-                        <img src="" alt="Python">
-                    </div>
+
                     <ul class="toc chapters">
                         <li class="heading">@Model.subject.NameSubject</li>
+                        
                         @foreach (var chapter in Model.chapters)
                         {
 
-                            <li><a data-id="@chapter.Id" style="cursor:pointer" class="js-chapter">@chapter.NameChapter</a></li>
+                            <li class="js-li"><a data-id="@chapter.Id" style="cursor:pointer" class="js-chapter">@chapter.NameChapter</a></li>
+
                         }
 
                     </ul>
@@ -38,7 +39,8 @@
 
             <!-- Right Col -->
             <div class="rightcol-lession js-test">
-                @if (Model.IsTest) { 
+                @if (Model.IsTest)
+                {
                     <a asp-action="TestClient" asp-controller="subjectClient" asp-route-id="@ViewBag.IdChapter">Bài kiểm tra</a>
                 }
             </div>
@@ -48,4 +50,4 @@
 </section>
 @section scriptClient{
     <script src="~/clientLTE/js/detaillesson.js" asp-append-version="true"></script>
- }
+}

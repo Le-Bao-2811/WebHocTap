@@ -53,7 +53,9 @@ namespace DoAnThucTap.Web.Areas.Admin.Controllers
             var data = await _repo.GetOneAsync<CategorySub, AddorUpdateCategorySubVM>(id, s => new AddorUpdateCategorySubVM
             {
                 Id = s.Id,
-                NameCategorySub = s.NameCategorySub
+                NameCategorySub = s.NameCategorySub,
+                Descripstion=s.Descripstion,
+                Price=s.Price
             });
             return PartialView(data);
         }
@@ -62,6 +64,7 @@ namespace DoAnThucTap.Web.Areas.Admin.Controllers
         public async Task<IActionResult> _Update(AddorUpdateCategorySubVM model)
         {
             var data= await _repo.FindAsync<CategorySub>(model.Id);
+            model.pathImg= data.pathImg;
             if(data != null)
             {
                 _mapper.Map<AddorUpdateCategorySubVM,CategorySub>(model, data);

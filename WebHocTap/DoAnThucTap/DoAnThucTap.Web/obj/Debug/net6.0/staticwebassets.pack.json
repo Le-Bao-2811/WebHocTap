@@ -417,12 +417,32 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\emailTemplate\\InfoNewMessager.html",
+      "PackagePath": "staticwebassets\\emailTemplate\\InfoNewMessager.html"
+    },
+    {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\emailTemplate\\emailSuccess.html",
+      "PackagePath": "staticwebassets\\emailTemplate\\emailSuccess.html"
+    },
+    {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\emailTemplate\\emailSuccessOrder.html",
+      "PackagePath": "staticwebassets\\emailTemplate\\emailSuccessOrder.html"
+    },
+    {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\emailTemplate\\emailTemplate.html",
+      "PackagePath": "staticwebassets\\emailTemplate\\emailTemplate.html"
+    },
+    {
       "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
       "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\img\\categorysub\\CDL10_104-06-2023-12-58-06-335.jpg",
       "PackagePath": "staticwebassets\\img\\categorysub\\CDL10_104-06-2023-12-58-06-335.jpg"
+    },
+    {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\img\\categorysub\\ao-khoachoodie-tron-305-07-2023-13-23-19-453.jpg",
+      "PackagePath": "staticwebassets\\img\\categorysub\\ao-khoachoodie-tron-305-07-2023-13-23-19-453.jpg"
     },
     {
       "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\img\\categorysub\\logo17-05-2023-14-17-53-295.jpg",
@@ -439,6 +459,10 @@
     {
       "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\img\\categorysub\\quan-baggy-nam-80004-06-2023-12-58-38-936.jpg",
       "PackagePath": "staticwebassets\\img\\categorysub\\quan-baggy-nam-80004-06-2023-12-58-38-936.jpg"
+    },
+    {
+      "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\img\\categorysub\\quanthethao05-07-2023-13-18-21-832.jpg",
+      "PackagePath": "staticwebassets\\img\\categorysub\\quanthethao05-07-2023-13-18-21-832.jpg"
     },
     {
       "Id": "D:\\hoaibao\\DuAN\\DoANThucTap\\WebHocTap\\DoAnThucTap\\DoAnThucTap.Web\\wwwroot\\img\\categorysub\\somi04-06-2023-13-07-45-430.jpg",

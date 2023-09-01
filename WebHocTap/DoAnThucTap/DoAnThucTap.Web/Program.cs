@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using DoAnThucTap.Data;
 using DoAnThucTap.Data.Reponsitory;
+using DoAnThucTap.Web.Common.Mailer;
 using DoAnThucTap.Web.WebConfig;
 using DoAnThucTap.Web.WebConfig.Const;
 using Microsoft.EntityFrameworkCore;
@@ -32,6 +33,11 @@ var mapperConfig = new MapperConfiguration(config =>
 });
 IMapper mapper = mapperConfig.CreateMapper();
 builder.Services.AddSingleton(mapper);
+
+// Khởi tạo thông tin mail
+AppMailConfiguration mailConfig = new();
+mailConfig.LoadFromConfig(builder.Configuration);
+builder.Services.AddSingleton(mailConfig);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -12,6 +12,9 @@ using PayPal.v1.Orders;
 using BraintreeHttp;
 using DoAnThucTap.Web.Common;
 using X.PagedList;
+using DoAnThucTap.Web.Common.Mailer;
+using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
+using System.Security.Claims;
 
 namespace DoAnThucTap.Web.Controllers
 {
@@ -22,12 +25,16 @@ namespace DoAnThucTap.Web.Controllers
         private readonly string _clientId;
         private readonly string _secretKey;
         public readonly int USD;
-        public HomeController(ILogger<HomeController> logger,BaseReponsitory repo,IConfiguration configuration):base(repo)
+        private readonly AppMailConfiguration _mailConfig;
+        private readonly IHostingEnvironment _env;
+        public HomeController(ILogger<HomeController> logger,BaseReponsitory repo, IConfiguration configuration, AppMailConfiguration mailConfig, IHostingEnvironment env) : base(repo)
         {
             _logger = logger;
             _clientId = configuration["PaypalSetting:ClientID"];
             _secretKey = configuration["PaypalSetting:SecretKey"];
             USD = 23000;
+            _mailConfig = mailConfig;
+            _env = env;
         }
         public IActionResult Index()
         {
@@ -139,6 +146,24 @@ namespace DoAnThucTap.Web.Controllers
             purchasedCourse.IdUser = Convert.ToInt32(User.Claims.SingleOrDefault(c => c.Type.Contains(System.Security.Claims.ClaimTypes.NameIdentifier))?.Value);
             purchasedCourse.IdSub = id;
             purchasedCourse.Price=subject.Price;
+
+
+            // gửi mal cho khách hàng
+            var appMailSendercumstumner = new AppMailSender()
+            {
+                Name = "Bạn vừa mua 1 khóa học",
+                Subject = $"Bạn vừa mua 1 khóa học",
+                Content = "Bạn vừa mua 1 khóa học"
+            };
+            var appMailRecivercustommer = new AppMailReciver()
+            {
+                Email = User.FindFirstValue(ClaimTypes.Email),
+                Name = User.FindFirstValue(ClaimTypes.Name),
+            };
+            AppMailer _emailMapcustomeer = new AppMailer(_mailConfig);
+            _emailMapcustomeer.Sender = appMailSendercumstumner;
+            _emailMapcustomeer.Reciver = appMailRecivercustommer;
+            _emailMapcustomeer.Send();
             await _repo.AddAsync(purchasedCourse);
             return View();
         }

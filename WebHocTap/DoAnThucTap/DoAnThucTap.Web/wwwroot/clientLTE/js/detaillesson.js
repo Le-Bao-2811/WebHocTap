@@ -4,10 +4,8 @@
     $(".js-content").html("");
     var div = document.querySelector(".js-content")
     $.get("/SubjectClient/DetailLesson/" + id, (res) => {
-        console.log(res)
         var array = res.lessons;
         for (let i = 0; i < array.length; i++) {
-            //console.log(array[i])
             div.insertAdjacentHTML("beforeend", array[i].content)
         }
         $(".js-test").html("");

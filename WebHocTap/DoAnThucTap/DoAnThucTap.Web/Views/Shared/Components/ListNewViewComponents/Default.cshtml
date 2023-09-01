@@ -15,7 +15,7 @@
                         {
                             <div class="lybraries-item">
                                 <div class="item">
-                                    <a href="#">
+                                    <a  asp-action="DetailNews" asp-controller="NewsClient" asp-route-id="@news.Id">
                                         <img src="/img/news/@news.pathImg" alt="" class="image-tittle" style="width:30px;height:30px">
                                         <p class="image-title">@news.Title</p>
                                     </a>    

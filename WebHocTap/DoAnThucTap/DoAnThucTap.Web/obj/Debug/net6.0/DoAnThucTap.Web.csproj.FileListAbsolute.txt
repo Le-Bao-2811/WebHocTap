@@ -579,3 +579,11 @@ D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6
 D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\zh-CN\Humanizer.resources.dll
 D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\zh-Hans\Humanizer.resources.dll
 D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\zh-Hant\Humanizer.resources.dll
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\MailKit.dll
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\MimeKit.dll
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\System.Formats.Asn1.dll
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\hoaibao\DuAN\DoANThucTap\WebHocTap\DoAnThucTap\DoAnThucTap.Web\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll

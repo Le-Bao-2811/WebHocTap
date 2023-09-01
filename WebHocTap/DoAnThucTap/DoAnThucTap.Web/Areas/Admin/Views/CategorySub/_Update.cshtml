@@ -15,6 +15,19 @@
                     <input asp-for="NameCategorySub" class="form-control" />
                     <span asp-validation-for="NameCategorySub" class="text-danger"></span>
                 </div>
+                @if (Model.Price!= null){
+                    <div class="form-group">
+                        <label asp-for="Price" class="control-label"></label>
+                        <input asp-for="Price" class="form-control" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                }
+
+                <div class="form-group">
+                    <label asp-for="Descripstion" class="control-label">Mô tả</label>
+                    <input asp-for="Descripstion" class="form-control" />
+                    <span asp-validation-for="Descripstion" class="text-danger"></span>
+                </div>
                 <div class="form-group">
                     <input type="submit" value="Save" class="btn btn-primary" />
                 </div>
